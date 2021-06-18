@@ -21,7 +21,7 @@ def main():
     with user_client:
         while True:
             print("[INFO] starting to check uptime..")
-            edit_text = f"** Uploader4 Bots Status** \n\n__( All bots are checked automatically if any correction report it to @uploader4)__\n\n\n"
+            edit_text = f"** UPLOADER4 LIVE BOTS-STATUS** \n\n__( All bots are checked automatically, if any correction report it to @uploader4)__\n\n\n"
             for bot in bots:
                 print(f"[INFO] checking @{bot}")
                 snt = user_client.send_message(bot, '/start')
@@ -50,7 +50,7 @@ def main():
                 time.sleep(5)
             print(f"[INFO] everything done! sleeping for 1 hour...")
 
-            time.sleep(60 * 60)
+            time.sleep(60 * 180)
 
 
 if __name__ == "__main__":
